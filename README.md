@@ -12,6 +12,8 @@ It will then display them in the terminal in a similar fashion to HexEdit.
 The assembler code takes care of input control and prompts the user for some values.
 After inputing the values you want, it will print the sector number in hex, then it's contents in hex, and then contents in ASCII per line.
 
+The code is thoroughly commented and every step is explained in order to achieve the results.
+
 Feel free to use the code provided however you like. 
 It would be nice to be referenced in any work but is not essential.
 
