@@ -77,7 +77,7 @@ Setup_Sector_Read:
 	pop		cx
 	
 	add		cx, cx						; read 2x16 lines foreach sector, so we must double the user input to use it as counter
-									
+	
 Sector_Write_16:
 	push	cx							; push cx to preserve the amount of times to read the sectors (from user input)
     mov     cx, 16						; setup loop so it runs through 16 lines (with each starting a new line)
